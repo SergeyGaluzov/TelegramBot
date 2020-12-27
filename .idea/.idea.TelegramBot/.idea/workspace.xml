@@ -4,11 +4,7 @@
     <projectFile>TelegramBot.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb51947-1338-4fad-bf4d-56fd0b846022" name="Default Changelist" comment="add gameParams">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TelegramBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TelegramBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TelegramBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramBot.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="bbb51947-1338-4fad-bf4d-56fd0b846022" name="Default Changelist" comment="v2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +68,7 @@
       <updated>1609060245920</updated>
       <workItem from="1609060252181" duration="1906000" />
       <workItem from="1609069410709" duration="1282000" />
-      <workItem from="1609071583308" duration="1495000" />
+      <workItem from="1609071583308" duration="1594000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1609060389385</created>
@@ -88,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609070530091</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v2">
+      <created>1609073096701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609073096701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +127,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="add gameParams" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gameParams" />
+    <MESSAGE value="v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
