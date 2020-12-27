@@ -4,7 +4,9 @@
     <projectFile>TelegramBot.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb51947-1338-4fad-bf4d-56fd0b846022" name="Default Changelist" comment="v2" />
+    <list default="true" id="bbb51947-1338-4fad-bf4d-56fd0b846022" name="Default Changelist" comment="update .gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +23,7 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Program.cs" />
+      <option value="$PROJECT_DIR$/.gitignore" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mEYVei05tmfDj6lJsSmHq1wkFY" />
@@ -69,6 +72,7 @@
       <workItem from="1609060252181" duration="1906000" />
       <workItem from="1609069410709" duration="1282000" />
       <workItem from="1609071583308" duration="1594000" />
+      <workItem from="1609074197413" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1609060389385</created>
@@ -91,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609073096701</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update .gitignore">
+      <created>1609074245188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609074245188</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,25 +139,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add gameParams" />
     <MESSAGE value="v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>37</line>
-          <properties documentPath="$PROJECT_DIR$/Program.cs" initialLine="38" containingFunctionPresentation="method 'Main'">
-            <startOffsets>
-              <option value="1034" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1035" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore" />
   </component>
 </project>
