@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_TelegramBot.1801358897.00" t="ExcludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\Stami\AppData\local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Stami\AppData\local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_TelegramBot.1966429367.00" t="ExcludeRecursive" />
+    <e p="D:\telegram_bot\TelegramBot" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
-      <e p="Program.cs" t="Include" />
-      <e p="TelegramBot.csproj" t="IncludeRecursive" />
-      <e p="TelegramBot.sln" t="IncludeFlat" />
       <e p="bin" t="ExcludeRecursive" />
+      <e p="Bot.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="net5.0" t="Include">
@@ -18,6 +15,8 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="TelegramBot.csproj" t="IncludeRecursive" />
+      <e p="TelegramBot.sln" t="IncludeFlat" />
     </e>
   </component>
 </project>
