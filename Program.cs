@@ -1,33 +1,40 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
 using System.Web.Mvc;
+using Newtonsoft.Json;
 
 namespace TelegramBot
 {
-    public class GameParameters
+    public class Question   
     {
-        public string Topic {get; set; }
-        public string Difficulty { get; set; }
-        public int QuestionsNumber { get; set; }
+        public List<string> Options; 
+        public string QuestionText; 
+        public int AnswerId; 
     }
-    
-    [Route("game/millionaire")]
-    public class MillionereController : Controller
+
+    public class Game    
     {
-        [HttpGet]
-        public GameParameters Get(string topic, string difficulty, int questionsNumber)
-        {
-            var gameParams = new GameParameters();
-            gameParams.Topic = topic;
-            gameParams.Difficulty = difficulty;
-            gameParams.QuestionsNumber = questionsNumber;
-            return gameParams;
-        }   
+        public List<string> Topics; 
+        public int Difficulty; 
+        public List<Question> Questions; 
+    }
+
+    public class GameRoot   
+    {
+        public string GameId; 
+        public Game Game; 
     }
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            HttpClient client = new HttpClient();
+            HttpResponseMessage response = await client.GetAsync("http://35.233.79.129/game/millionaire?topic=science&difficulty=EASY&questions=2");
+            var responseBody = await response.Content.ReadAsStringAsync();
+            var obj = JsonConvert.DeserializeObject<GameRoot>(responseBody);
         }
     }
 }
