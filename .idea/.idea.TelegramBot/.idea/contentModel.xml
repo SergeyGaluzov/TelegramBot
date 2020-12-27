@@ -4,17 +4,6 @@
     <e p="C:\Users\Stami\AppData\local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Stami\AppData\local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_TelegramBot.1966429367.00" t="ExcludeRecursive" />
     <e p="D:\telegram_bot\TelegramBot" t="IncludeRecursive">
-      <e p=".gitignore" t="Include" />
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="Bot.cs" t="Include" />
-      <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
-          <e p="net5.0" t="Include">
-            <e p="TelegramBot.AssemblyInfo.cs" t="Include" />
-          </e>
-        </e>
-      </e>
-      <e p="packages" t="ExcludeRecursive" />
       <e p="TelegramBot.csproj" t="IncludeRecursive" />
       <e p="TelegramBot.sln" t="IncludeFlat" />
     </e>
