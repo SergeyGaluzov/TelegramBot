@@ -6,12 +6,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-<<<<<<< HEAD
       <PackageReference Include="NetTelebot" Version="1.0.12" />
-=======
       <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
       <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
->>>>>>> 2d1ca40e4bca5965d4f49d22183066730071ce61
       <PackageReference Include="Telegram.Bot" Version="15.7.1" />
     </ItemGroup>
 
